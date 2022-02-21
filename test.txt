@@ -9,4 +9,7 @@ git clone ---> egyszerre letrehozza a repositoryt, es le is masolja a tartalmat
 git diff filenev v. HEAD (minden filet) ---> az elozo felcommitolt valtozathoz osszehasonlitja a mostani valtoztatottat
 git reset filenev ---> leveszi a szinpadrol ha meg nem commitoltunk csak addoltunk
 git branch <nev> ---> letrehozok branchet
+git branch -d <branch nev> ---> branch torlese
 git checkout <branch nev> ---> valtas masik branchre
+git rm ---> remove torles
+git merge <branch nev> ---> rafesuli a kulonbsegeket a master branchre
