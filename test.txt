@@ -4,3 +4,9 @@ git add filenev  ---> hozzaadjuk a file-t a szinpadra
 git commit -m "Message" ---> hozzaadjuk az eddigi addolt fileokat a local repositoryba
 git remote add origin https://... ---> hozzakotjuk a lokalis repositoryt a remote (tavoli) repositoryhoz
 git push -u origin master ( u azt jelenti hogy jegyezze meg az origin mastert) ---> feltoljuk az eddigi commitolt fileokat a remote repositoryba
+git pull origin master ---> lehuzza a fileokat a remote repositorybol, hiba eseten (git pull origin master --allow-unrelated-histories)
+git clone ---> egyszerre letrehozza a repositoryt, es le is masolja a tartalmat
+git diff filenev v. HEAD (minden filet) ---> az elozo felcommitolt valtozathoz osszehasonlitja a mostani valtoztatottat
+git reset filenev ---> leveszi a szinpadrol ha meg nem commitoltunk csak addoltunk
+git branch <nev> ---> letrehozok branchet
+git checkout <branch nev> ---> valtas masik branchre
