@@ -1,1 +1,6 @@
-asdasdsads
+git init ---> letrehozom a lokalis repositoryt
+git status ---> megnezzuk van-e valami amit nem adtunk hozza
+git add filenev  ---> hozzaadjuk a file-t a szinpadra
+git commit -m "Message" ---> hozzaadjuk az eddigi addolt fileokat a local repositoryba
+git remote add origin https://... ---> hozzakotjuk a lokalis repositoryt a remote (tavoli) repositoryhoz
+git push -u origin master ( u azt jelenti hogy jegyezze meg az origin mastert) ---> feltoljuk az eddigi commitolt fileokat a remote repositoryba
